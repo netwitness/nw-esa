@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000007</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>1</severity>
+	<enabled>false</enabled>
+	<last_modified>1425329922</last_modified>
+	<revision>3</revision>
+
+</module>
