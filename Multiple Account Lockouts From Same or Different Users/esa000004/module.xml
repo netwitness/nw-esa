@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000004</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>3</severity>
+	<enabled>false</enabled>
+	<last_modified>1381760845</last_modified>
+	<revision>3</revision>
+	
+	<variables>
+		<variable id="time_window">
+			<name ref="$time_window_name"/>
+			<desc ref="$time_window_desc"/>
+			<value type="int">600</value>	
+		</variable>
+		<variable id="event_count">
+			<name ref="$event_count_name"/>
+			<desc ref="$event_count_desc"/>
+			<value type="int">10</value>	
+		</variable>
+	</variables>
+
+</module>

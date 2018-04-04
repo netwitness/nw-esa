@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000076</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>1</severity>
+	<enabled>false</enabled>
+	<last_modified>1396301798</last_modified>
+	<revision>2</revision>
+	
+	<variables>
+		<variable id="time_window">
+			<name ref="$time_window_name"/>
+			<desc ref="$time_window_desc"/>
+			<value type="int">300</value>
+		</variable>
+		<variable id="group_equals" is_array="true">
+			<name ref="$group_equals_name"/>
+			<desc ref="$group_equals_desc"/>
+			<value type="string">wheel</value>
+			<value type="string">root</value>
+		</variable>
+	</variables>
+	
+</module>
