@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000129</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>3</severity>
+	<enabled>false</enabled>
+	<last_modified>1424816809</last_modified>
+	<revision>3</revision>
+	
+	
+		<variables>
+
+		<variable id="username_contains" is_array="true">
+			<name ref="$username_contains_name"/>
+			<desc ref="$username_contains_desc"/>
+			<value type="string">Administrator</value>
+			<value type="string">admin</value>
+			<value type="string">ADMIN</value>
+			<value type="string">administrator</value>
+		</variable>
+		<variable id="ip_list" is_array="true">
+			<name ref="$ip_list_name"/>
+			<desc ref="$ip_list_desc"/>
+			<value type="string">10.0.0.0</value>
+			<value type="string">10.0.0.1</value>	
+		</variable>
+		<variable id="host_list" is_array="true">
+			<name ref="$host_list_name"/>
+			<desc ref="$host_list_desc"/>
+			<value type="string">mydomainhost</value>
+			<value type="string">mydirectoryhost</value>	
+		</variable>
+		<variable id="time_window">
+			<name ref="$time_window_name"/>
+			<desc ref="$time_window_desc"/>
+			<value type="int">180</value>
+		</variable>
+		<variable id="count">
+			<name ref="$count_name"/>
+			<desc ref="$count_desc"/>
+			<value type="int">3</value>	
+		</variable>
+	</variables>
+</module>

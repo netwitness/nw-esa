@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000049</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>3</severity>
+	<enabled>false</enabled>
+	<last_modified>1382426335</last_modified>
+	<revision>3</revision>
+	
+	<variables>
+		<variable id="variablelist_extension" is_array="true">
+			<name ref="$variablelist_extension_name"/>
+			<desc ref="$variablelist_extension_desc"/>
+			<value type="string">doc</value>
+			<value type="string">docx</value>
+			<value type="string">txt</value>
+			<value type="string">exe</value>
+			<value type="string">dll</value>
+			<value type="string">msi</value>
+			<value type="string">cmd</value>
+		</variable>
+		<variable id="variablelist_dst_port" is_array="true">
+			<name ref="$variablelist_dst_port_name"/>
+			<desc ref="$variablelist_dst_port_desc"/>
+			<value type="int">21</value>
+			<value type="int">22</value>
+			<value type="int">25</value>
+			<value type="int">80</value>
+			<value type="int">443</value>
+			<value type="int">110</value>
+			<value type="int">143</value>
+		</variable>
+	</variables>
+	
+</module>

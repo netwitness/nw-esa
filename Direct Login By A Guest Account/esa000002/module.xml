@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000002</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>3</severity>
+	<enabled>false</enabled>
+	<last_modified>1422479547</last_modified>
+	<revision>3</revision>
+	
+	
+	<variables>
+
+		<variable id="user_list" is_array="true">
+			<name ref="$user_list_name"/>
+			<desc ref="$user_list_desc"/>
+			<value type="string">Guest</value>
+			<value type="string">guest</value>
+			<value type="string">GUEST</value>
+		</variable>
+	</variables>
+	
+</module>

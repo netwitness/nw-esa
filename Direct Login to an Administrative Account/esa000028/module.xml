@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000028</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>1</severity>
+	<enabled>false</enabled>
+	<last_modified>1425329922</last_modified>
+	<revision>3</revision>
+	<variables>
+		<variable id="username_contains" is_array="true">
+			<name ref="$username_contains_name"/>
+			<desc ref="$username_contains_desc"/>
+			<value type="string">Administrator</value>
+			<value type="string">admin</value>
+			<value type="string">ADMIN</value>
+			<value type="string">administrator</value>
+		</variable>
+	</variables>
+</module>
