@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://www.netwitness.com/rta/1.0">
+	<id>esa000087</id>
+	<name ref="$module_name"/>
+	<desc ref="$module_desc"/>
+	<type>ootb</type>
+	<severity>7</severity>
+	<enabled>false</enabled>
+	<last_modified>1406299549</last_modified>
+	<revision>3</revision>
+	
+	<variables>
+		<variable id="time_window">
+			<name ref="$time_window_name"/>
+			<desc ref="$time_window_desc"/>
+			<value type="int">120</value>
+		</variable>
+	</variables>	
+</module>
